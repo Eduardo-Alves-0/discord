@@ -1,0 +1,219 @@
+Front-end:
+básico:
+- Página pessoal (portfólio)
+- To-Do List
+- Calculadora simples
+- Conversor de moedas
+- Formulário de contato com validação
+- Landing Page com imagens e botões
+- Página "Sobre mim" com estilo CSS
+- Página de receitas com cards de comida
+- Página de erro 404 estilizada
+- Relógio digital ou temporizador com JavaScript
+- Quiz com pontuação
+- Currículo online em HTML/CSS
+- Animações com CSS (hover, fade, slide etc.)
+
+
+médio:
+- Clone do Google ou Netflix (visual)
+- Sistema de anotações com localStorage
+- Galeria de fotos com filtro por categoria
+- Página com tema claro/escuro (toggle)
+- Blog estático com navegação
+- Jogo da velha com HTML/CSS/JS
+- Lista de compras com contador e remoção
+- Página de login responsiva
+- Simulador de fatura de cartão com JavaScript
+- Quiz dinâmico com pontuação final
+- Contador regressivo com alerta
+- Sistema de comentários (fake, sem backend)
+- Slider de imagens/carrossel
+- Relógio mundial com fuso horário
+
+
+avançado:
+- Dashboard com gráficos 
+- Aplicação React com Hooks
+- Sistema de agendamento com datas (Datepicker)
+- Front-end consumindo API externa (ex: clima, filmes)
+- App com scroll infinito (infinite scroll)
+- Kanban Board com arrastar e soltar (drag & drop)
+- PWA com modo offline
+- Formulário multietapas com animações
+- Autenticação com Firebase (login/cadastro)
+- Chat em tempo real com WebSocket
+- App de clima com geolocalização
+- CRUD completo com React e localStorage/API
+- Sistema de likes/salvamento (estilo Pinterest)
+- Página com visualização de arquivos (PDF, imagens etc.)
+- Dashboard com gráficos em tempo real (WebSocket + API
+
+back-end:
+básico:
+- CRUD simples com dados em memória (ex: tarefas, produtos)
+- Validador de dados (ex: e-mail, CPF, senha forte)
+- Conversor de unidades (temperatura, moedas)
+- Simulador de API com rotas REST (GET, POST, PUT, DELETE)
+- Gerador de senhas seguras
+- Autenticação simples com sessões ou tokens
+- Sistema de login/logout
+- Upload de arquivos
+- Envio de e-mail com template personalizado
+- Cálculo de IMC ou simulação de empréstimos
+- Contador de visitas com persistência básica
+- Logger de requisições (registro de acessos)
+
+médio:
+- CRUD com banco relacional ou NoSQL
+- Paginação, filtros e busca em APIs
+- Autenticação com refresh token + expirabilidade
+- Upload de imagens e arquivos (com salvamento em disco ou nuvem)
+- Gerador de relatórios em PDF
+- Integração com serviços externos (ex: clima, CEP, IBGE)
+- Sistema de agendamento com verificação de conflito
+- API RESTful com versionamento
+- Validações robustas nos dados recebidos
+- Sistema de permissões por tipo de usuário
+- Painel administrativo com dados gerenciáveis
+- Rotas protegidas e autenticação baseada em roles
+- Sistema de avaliação ou feedback (ex: estrelinhas + comentários)
+- Logs de erros e auditoria simples
+
+avançado:
+- Autenticação OAuth2 (Google, GitHub, etc.)
+- WebSockets para chat em tempo real ou notificações
+- API GraphQL com filtros, relacionamentos e autenticação
+- Microsserviços com comunicação entre serviços (REST/gRPC)
+- Orquestração com filas (ex: filas de e-mail ou processamento com Redis, Kafka)
+- Integração com sistemas de pagamento (ex: PayPal, Stripe, Pix)
+- Testes automatizados (unitários e integração)
+- Monitoração com métricas e logs (Prometheus, Grafana, ELK, etc.)
+- Serviço de envio de notificações (push/SMS/e-mail)
+- Rate Limiting e proteção contra ataques DDoS/brute-force
+- Versionamento e migração de banco de dados
+- Arquitetura hexagonal ou clean architecture
+- Documentação automática com Swagger ou equivalente
+- Internacionalização (i18n) e localização (l10n)
+
+Full stack:
+básico:
+- To-Do List full stack com API e banco de dados
+- Página de contato com envio real de mensagens (e-mail/back-end)
+- Calculadora de IMC com histórico salvo no servidor
+- Blog pessoal com front e back conectados (CRUD de posts)
+- Lista de tarefas com login básico e armazenamento persistente
+- Conversor de moedas com consumo de API externa
+- Sistema de cadastro de usuários com senha criptografada
+- Portfólio com painel de gerenciamento (login e CRUD de projetos)
+- Formulário multietapas com envio para banco de dados
+- Dashboard de métricas simples (ex: visitantes, cliques)
+
+médio:
+- Sistema de agendamento com escolha de datas disponíveis
+- Aplicação de receitas com login, busca e categorias
+- E-commerce básico com carrinho e painel administrativo
+- Blog com login, comentários e upload de imagens
+- Sistema de anotações com Markdown e salvamento
+- Quiz com rankings, temporizador e back-end validando respostas
+- Plataforma de avaliação (ex: livros, filmes, cursos)
+- Painel de controle com filtros, gráficos e exportação em PDF
+- Página com light/dark mode sincronizado com o back-end
+- Feed de publicações com curtidas, busca e filtros por tag
+
+avançado:
+- Kanban Board full stack com drag & drop e banco de dados
+- Sistema de autenticação com OAuth2 (Google, GitHub)
+- PWA com login e dados offline (sincronização posterior)
+- E-commerce avançado com gateway de pagamento e estoque dinâmico
+- Plataforma de blog com usuários, permissões e editor visual
+- Sistema de chat em tempo real com WebSocket
+- Aplicação de clima com geolocalização e histórico salvo por usuário
+- Sistema de upload com visualização de arquivos (PDF, imagem, etc.)
+- App de delivery com mapa, atualização de status em tempo real
+- Sistema de notificações com filas (e-mail, push, SMS)
+- Painel administrativo para múltiplos níveis de usuários
+- Multitenancy (usuários de diferentes empresas, dados isolados)
+
+
+Mobile:
+básico:
+- App de calculadora com layout nativo
+- To-Do List com salvamento local
+- Conversor de unidades (moeda, temperatura, etc.)
+- App de receitas com lista estática
+- Timer ou cronômetro funcional
+- App de anotações com persistência em localStorage/SQLite
+- Relógio mundial ou agenda de horários
+- App de perfil pessoal (estático) com imagem e redes sociais
+- Quiz com perguntas de múltipla escolha
+- Flashcards para estudar com categorias
+
+médio:
+- App de clima com geolocalização e API de previsão
+- Lista de compras com CRUD e sincronização local
+- App de tarefas com autenticação e categorias
+- Aplicativo de finanças pessoais com gráfico de despesas
+- App de receitas com busca, favoritos e imagem
+- App de leitura de código de barras/QR Code
+- Autenticação com biometria (face ou digital)
+- App com tema claro/escuro ajustável
+- Músicas ou vídeos com player embutido
+- App de localização de estabelecimentos com mapa
+
+avançado:
+- E-commerce com carrinho, login e pagamento simulado
+- App de delivery com tracking e status do pedido
+- App de mensagens em tempo real (chat) com backend
+- Aplicativo de agendamento com escolha de datas e horários
+- Aplicativo de rede social simples (feed, likes, comentários)
+- App PWA com uso offline e sincronização posterior
+- App de avaliações com rankings, busca e filtros
+- Upload de imagens com preview e salvamento em nuvem
+- Controle de estoque com diferentes níveis de acesso (usuário/admin)
+- App com notificações push e integração com backend
+- Sistema de login com autenticação via Google ou Apple
+- Integração com APIs de pagamento (ex: Stripe, PayPal)
+- App com geolocalização para entrega a distância
+- Aplicativo de notícias com scroll infinito
+- Aplicativo de música com playlist e reprodução local
+- Aplicativo de estudo com timer regressivo
+- Aplicativo de treino de ginástica com rastreamento de progresso
+- Aplicativo de agenda de contatos com backup em nuvem
+- Aplicativo de descontos com código promocional
+
+Introdução à IA e ML, manipulação de dados e modelos simples:
+básico:
+- Classificador de flores (Iris Dataset com KNN ou SVM)
+- Previsão de preços de casas com regressão linear
+- Analisador de sentimentos em frases simples
+- Detector de spam (e-mails ou mensagens)
+- Conversor de voz para texto (usando bibliotecas prontas)
+- Sistema de recomendação básico (ex: filmes, músicas)
+- Reconhecimento de dígitos manuscritos (MNIST)
+- Agrupamento de dados com K-means (ex: segmentação de clientes)
+- Visualização de dados com gráficos interativos (matplotlib, seaborn, Plotly)
+
+médio:
+- Previsão de séries temporais (ex: vendas, temperatura)
+- Detecção de emoções com reconhecimento facial
+- Reconhecimento de voz e conversão para comandos
+- Classificador de imagens usando CNN simples
+- Chatbot com IA básica usando NLP (ex: spaCy, NLTK, Rasa)
+- Geração automática de legendas para imagens (image captioning simples)
+- Detecção de objetos em tempo real com webcam (YOLO ou SSD pré-treinado)
+- Análise de sentimentos com reviews reais de produtos
+- Recomendador com filtragem colaborativa (ex: matriz de usuários × itens)
+- Aplicativo com modelo de ML embutido (ex: Flask, Streamlit ou app mobile)
+
+avançado:
+- Classificador de imagens personalizado com transferência de aprendizado (transfer learning)
+- Geração de imagens com GANs (ex: DeepFake, arte sintética)
+- Reconhecimento de voz com RNNs ou Transformers
+- Modelo de previsão com dados sequenciais (ex: LSTM, GRU)
+- Sistema de recomendação avançado com embeddings
+- Criação de assistente virtual com NLP (entendimento de intenção e contexto)
+- Chatbot com memória de contexto e múltiplos turnos
+- Geração de texto com modelos tipo GPT (com fine-tuning ou APIs)
+- Detecção de fraudes financeiras com aprendizado supervisionado
+- Otimização com algoritmos genéticos ou reforço (ex: jogos, simulações)

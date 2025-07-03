@@ -1,0 +1,132 @@
+Front-end:
+Etapa 1: Fundamentos
+- HTML5 e semântica
+- CSS3 (Flexbox, Grid)
+- JavaScript (sintaxe, DOM)
+- Git + GitHub
+
+Etapa 2: Interatividade e projetos
+- Manipulação do DOM
+- Eventos e formulários
+- Validações com JS
+- Projetos: To-Do List, Conversor de moedas, Portfólio
+
+Etapa 3: Responsividade e acessibilidade
+- Media Queries
+- Mobile-first design
+- Design acessível (WAI-ARIA)
+
+Etapa 4: Ferramentas e frameworks
+- SASS ou Tailwind CSS
+- Webpack / Vite / Parcel
+- React (Hooks, Router, States)
+- Frameworks alternativos: Vue, Svelte
+
+Etapa 5: APIs e deploy
+- Consumo de APIs (Fetch, Axios)
+- Deploy no Vercel, Netlify ou GitHub Pages
+- Projetos: Blog, Galeria de imagens, Landing Page com dark mode
+
+Back-end:
+Etapa 1: Lógica e estrutura de servidor
+- Lógica de programação + estruturas de dados
+- Protocolo HTTP
+- Rotas, métodos e verbos HTTP
+
+Etapa 2: CRUD e banco de dados
+- Banco de dados (SQL e NoSQL)
+- Operações básicas (Create, Read, Update, Delete)
+- Conexão entre app e DB
+
+Etapa 3: Autenticação e segurança
+- Autenticação por sessão ou token (JWT)
+- Hashing de senha
+- Validações e sanitização de inputs
+
+Etapa 4: Arquitetura e integração
+- MVC, serviços e middlewares
+- Versionamento de API
+- Testes (unitários e integração)
+- Integração com APIs externas
+
+Etapa 5: Escalabilidade e devops
+- Docker básico
+- Logs e monitoramento
+- Deploy (Render, Railway, AWS, etc.)
+- Microsserviços (intro)
+
+Full stack:
+Etapa 1: Fundamentos Web (Front + Back)
+- HTML, CSS, JS
+- HTTP, APIs e Git
+
+Etapa 2: Projetos simples integrados
+- Formulário com back-end e banco de dados
+- Login com autenticação segura
+
+Etapa 3: SPA e frameworks
+- React, Vue ou outra lib
+- Roteamento e estados globais
+- Backend conectado (REST/GraphQL)
+
+Etapa 4: Autenticação, painéis e lógica de negócios
+- JWT, roles de usuário
+- Sistema de agendamento, painel administrativo
+- Upload, imagens, filtros, buscas
+
+Etapa 5: Escalabilidade e arquitetura limpa
+- APIs desacopladas
+- Deploy com banco + front (ex: Vercel + PostgreSQL + Railway)
+- Projetos: Kanban, E-commerce, Feed com comentários
+
+Mobile:
+Etapa 1: Fundamentos
+- UI/UX para mobile
+- Navegação entre telas
+- Armazenamento local (AsyncStorage, SQLite)
+
+Etapa 2: APIs e funcionalidades
+- Consumo de APIs externas
+- Câmera, geolocalização, mapas
+- CRUD com interface responsiva
+
+Etapa 3: Autenticação e dados
+- Login via senha e social login
+- Upload de mídia
+- Persistência offline e sincronização
+
+Etapa 4: Integrações e notificações
+- Notificações push
+- Pagamento simulado ou real (ex: Stripe)
+- App com backend real
+
+Etapa 5: Publicação e PWA
+- Testes automatizados e usabilidade
+- Publicação (Play Store, App Store ou Web App)
+- Projeto: Delivery, Mensagens, App com dashboard
+
+Inteligência Artificial / Machine Learning:
+Etapa 1: Fundamentos
+- Estatística e Álgebra Linear básica
+- Python, Pandas, NumPy
+- Visualização de dados
+
+Etapa 2: Aprendizado supervisionado
+- Regressão Linear, Logística
+- Árvores de decisão, KNN, SVM
+- Projeto: Previsão de vendas, Classificador de flores
+
+Etapa 3: NLP e visão computacional
+- NLP: spaCy, NLTK
+- Visão: OpenCV, CNN
+- Projeto: Chatbot, Reconhecimento facial
+
+Etapa 4: Deep Learning
+- Redes neurais com Keras/TensorFlow
+- Transfer learning (ex: ResNet)
+- Projeto: Detecção de objetos, Geração de texto
+
+Etapa 5: Modelos e produção
+- Avaliação de modelos (AUC, F1, confusion matrix)
+- Streamlit, Flask ou Gradio para interface
+- Deploy do modelo com API e dashboard
